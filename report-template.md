@@ -33,7 +33,7 @@ The stages of the machine learning process in this analysis included:
 
 ## Summary
 
-The logistic regression model is doing a very good job predicting the healthy loans (class 0), with precision 1.00, recall 0.99. When it comes to risky loans (class 1), the model is still doing a good prediction, precision 0.85 and recall 0.91. 
+The logistic regression model is doing a very good job predicting the healthy loans (class 0), with precision 1.00, recall 0.99. When it comes to risky loans (class 1), the model is still doing a good prediction, precision 0.87 and recall 0.91. 
 
 The lower precision and recall in predicting the risky loans (class 1) can be because of our imbalanced dataset as the support test data for class 1 is only 619 which is very low compared to 18765 for class 0. There is some room for improvement in predicting high risk loans.
 In other words, there are also very few high-risk loans for the model to learn from when compared to the number of healthy loans in the data set. If more of these types of loans could be added to the data to train from, there may be improvement to the model. 
