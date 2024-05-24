@@ -25,16 +25,6 @@
 
 
 
-* Machine Learning Model 2:
-  * Accuracy - how often the model is correct: the model displays 55945 true positive results and 55954 true negative results. 
-
-  * Precision - the ratio of the correctly predicted true positives to the total predicted positive observations: the model performs equally well for predicting healthy loans (precision 0.99) and high-risk loans (precision 0.99).
-
-  * Recall - the ratio of actual positives identified correctly: the model performs equally well for predicting healthy loans (recall 0.99) and high-risk loans (recall 0.99).
-
-  * Support - the number of actual occurrences of the class in the specified dataset: according to the support column, the model is balanced in the training data (healthy loans 56277 vs high-risk loans 56277), indicating structural strength in the reported scores, in the evaluation process.
-
-
 ## Summary
 
 * My recommendation would be to use the 'Machine Learning Model 2' as its reported scores are balanced and shows high levels of Accuracy, Precision and Recall for both healthy loans and high-risk loans. With more data points after the resampling, the model 'Machine Learning Model 2' demonstrated higher performance, being more suitable to predict the loan risks and classify them as healthy loans or high-risk loans.
